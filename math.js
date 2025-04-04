@@ -7,3 +7,7 @@ let min = 5;
 let max = 10;
 let numeroAleatorio2 = Math.round(Math.random() * (max - min) + min);
 console.log(numeroAleatorio2);
+
+console.log(Math.sign(-13));
+console.log(Math.sign(0));
+console.log(Math.sign(13));
